@@ -1,0 +1,29 @@
+{
+  "name": "@sensible-contract/web3",
+  "version": "1.0.0",
+  "description": "web3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx gulp",
+    "test": "mocha -r ts-node/register test/*.test.ts --timeout 600000"
+  },
+  "keywords": [],
+  "author": "huanniangstudio",
+  "license": "MIT",
+  "dependencies": {
+    "@sensible-contract/web3-sensible": "^1.0.3",
+    "@sensible-contract/web3-utils": "^1.0.0",
+    "@sensible-contract/web3-wallet": "^1.0.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "merge2": "^1.4.1"
+  }
+}
